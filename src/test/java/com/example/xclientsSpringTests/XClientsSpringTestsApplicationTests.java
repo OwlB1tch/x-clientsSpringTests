@@ -39,7 +39,7 @@ class XClientsSpringTestsApplicationTests {
     }
 
     @Test
-    @Owner("Andropov")
+    @Owner("Sukhorukov")
     @DisplayName("Проверка №2")
     @Description("Проверить создание сотрудника в несуществующей компании")
     public void CheckCreationEmployeeInNonExistentCompany() throws SQLException, IOException {
@@ -52,7 +52,7 @@ class XClientsSpringTestsApplicationTests {
     }
 
     @Test
-    @Owner("Andropov")
+    @Owner("Sukhorukov")
     @DisplayName("Проверка №3")
     @Description("Проверить, что неактивный сотрудник не отображается в списке")
     public void CheckInactiveEmployeeNotDisplayed() throws SQLException, IOException {
@@ -64,7 +64,7 @@ class XClientsSpringTestsApplicationTests {
     }
 
     @Test
-    @Owner("Andropov")
+    @Owner("Sukhorukov")
     @DisplayName("Проверка №4")
     @Description("Проверить, что у удаленной компании проставляется в БД поле [deletedAt]")
     public void CheckDeletedCompanyInBD() throws SQLException, IOException {
