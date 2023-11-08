@@ -26,7 +26,7 @@ class XClientsSpringTestsApplicationTests {
     private XClientsRepoImplJDBC xClientDB;
 
     @Test
-    @Owner("Andropov")
+    @Owner("Sukhorukov")
     @DisplayName("Проверка №1")
     @Description("Проверить, что список компаний фильтруется по параметру [active]")
     public void CheckListCompaniesFilterByActive() throws IOException, SQLException {
